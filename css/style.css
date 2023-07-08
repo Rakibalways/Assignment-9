@@ -1,0 +1,510 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Code Pro', monospace;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* global style gor heading title start */
+
+.title{
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+.title h4{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.title h1{
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px 20px;
+}
+
+/* global style gor heading title end */
+
+/* header style css start */
+.header{
+    width: 100%;
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 30px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+.header .navbar-nav .nav-item .active{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+/* header style css end */
+
+/* banner style css start */
+.banner{
+    width: 100%;
+    padding: 150px 0px;
+}
+.banner h4{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.banner h1{
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    margin: 15px 0px;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #767677;
+}
+.banner .inner-btn{
+    width: 100%;
+    padding: 30px 0px 0px;
+}
+.banner .inner-btn .btn-primary{
+    padding: 15px 25px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-size: 600;
+    letter-spacing: 1px;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+    transition: 1s;
+    margin: 0px 20px 0px 0px;
+}
+.banner .inner-btn .btn-primary:hover{
+    border: 1px solid #008ed6;
+    background: transparent;
+    color: #008ed6;
+}
+.banner .inner-btn .btn-primary:focus{
+    border: 1px solid #008ed6;
+    background: transparent;
+    color: #008ed6;
+}
+.banner .inner-btn .btn-info{
+    padding: 15px 25px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid #767677;
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+}
+.banner .inner-btn .btn-info:hover{
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+}
+.banner .inner-btn .btn-info:focus{
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+}
+/* banner style css end */
+
+/* feature style css start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .title{
+    text-align: center;
+}
+.icon-box{
+    width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+}
+.icon-box .icon{
+    width: 110px;
+    height: 110px;
+    line-height: 120px;
+    border-radius: 100%;
+    margin: 0px auto 20px;
+    border: 1px solid #eee;
+}
+.icon-box .icon .fa{
+    font-size: 35px;
+    color: #008ed6;
+}
+.icon-box h4{
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 10px;
+}
+.icon-box p{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #999999;
+}
+/* feature style css end */
+
+/* about-long style css start */
+.about-long{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+.about-long .title{
+    padding: 45px 0px 20px;
+}
+.about-long .title h1{
+    font-size: 42px;
+}
+.about-long p{
+    width: 62%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+}
+.about-long ul{
+    display: block;
+    padding: 10px 0px;
+}
+.about-long ul li{
+    list-style: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.7em;
+    margin: 0px 0px 10px;
+}
+.about-long ul li img{
+    width: 14px;
+    height: 16px;
+    margin: 0px 10px 0px 0px;
+}
+/* about-long style css end */
+
+/* about-sort style css start */
+.about-sort{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+.about-sort .title{
+    padding: 90px 0px 20px;
+}
+.about-sort .title h1{
+    font-size: 38px;
+}
+.about-sort p{
+    width: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+}
+/* about-sort style css end */
+
+/* testimonial style css start */
+.testionnial{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/tbg.png") center top no-repeat;
+    background-size: cover;
+}
+.testionnial .title{
+    text-align: center;
+}
+.testionnial .title h1{
+    color: #fff;
+}
+.testionnial .owl-carousel{
+
+}
+.testionnial .owl-carousel .item{
+
+}
+.testionnial .owl-carousel .item h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin: 0px 0px 30px;
+}
+.testionnial .owl-carousel .item .client{
+    width: 80px;
+    height: 80px;
+    border-radius : 100%;
+}
+.testionnial .owl-carousel .item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.7em;
+    margin: 12px 0px;
+}
+.testionnial .owl-carousel .item p span{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.testionnial .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 80px;
+}
+.testionnial .owl-theme .owl-dots .owl-dot span{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.testionnial .owl-theme .owl-dots .owl-dot.active span{
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    margin: 10px 7px 3px;
+}
+/* testimonial style css end */
+
+/* eye-catcher style css start */
+.eye-catcher{
+    width: 100%;
+    padding: 50px 0px;
+    background: #15141a;
+}
+.eye-catcher h1{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 0px;
+}
+.eye-catcher h1 span{
+    font-weight: 300;
+}
+.eye-catcher inner-btn{
+    padding: 50px 0px 0px 0px;
+}
+.eye-catcher .inner-btn .btn-info{
+    margin: 0px 20px 0px 0px;
+}
+/* eye-catcher style css end */
+
+/* price style css start */
+.price{
+    width: 100%;
+    padding: 80px 0px;
+}
+.price .title{
+    text-align: center;
+}
+.pricing-box{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.pricing-box .price-head{
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+}
+.pricing-box .price-head h3{
+    font-size: 26px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+}
+.pricing-box .man-price{
+    width: 100%;
+    padding: 35px 0px;
+    border-bottom: 1px solid #eee;
+}
+.pricing-box .man-price h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0px;
+}
+.pricing-box .man-price h1 sup{
+    font-size: 32px;
+    top: -0.9em;
+}
+.pricing-box .man-price p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin: -10px 0px 0px;
+}
+.pricing-box .price-content{
+    width: 100%;
+    padding: 40px 70px;
+}
+.pricing-box .price-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b8b8b8;
+    line-height: 1.7em;
+    margin: 0px 0px 40px;
+}
+.pricing-box .price-content p a{
+    text-decoration: none;
+    color: #44ace1;
+}
+.pricing-box .price-content .btn-primary{
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    transform: 1s;
+}
+.pricing-box:hover .price-head h3{
+    color: #008ed6;
+}
+.pricing-box:hover .man-price{
+    background: #008ed6;
+}
+.pricing-box:hover .man-price h1{
+    color: #fff;
+}
+.pricing-box:hover .man-price p{
+    color: #fff;
+}
+.pricing-box:hover .price-content .btn-primary{
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+/* price style css end */
+
+/* contact style css start */
+.contact{
+    width: 100%;
+    padding: 80px 0px 0px ;
+    background: #ededed;
+}
+.contact .title{
+    text-align: center;
+}
+.contact .info{
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+.contact .info .fa{
+    font-size: 55px;
+    color: #008ed6;
+    margin: 0px 0px 20px;
+}
+.contact .info p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px;
+}
+.contact-form{
+    width: 100%;
+    padding: 60px 90px;
+    margin: 80px 0px -70px;
+    background: #15141a;
+    position: relative;
+    z-index: 1;
+}
+.contact-form .form-control{
+    background: #15141a;
+}
+.contact-form .form-control{
+    padding: 17px 15px;
+    border: 1px solid #444348;
+    background: transparent;
+    color: #444348;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.contact-form .form-control:focus{
+    background: transparent;
+    border-color: #008ed6;
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #008ed6;
+}
+.contact-form .text-right{
+    text-align: right;
+}
+.contact-form .btn-primary{
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 2px;
+    transition: 1s;
+}
+.contact-form .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #008ed6;
+}
+/* contact style css end */
+
+/* Footer style css start */
+.footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: #15141a;
+}
+.footer .container{
+    text-align: center;
+}
+.footer .img-fluid{
+    margin: 30px 10px 0px;
+}
+.footer .copyright p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+    color: #3a393e;
+}
+/* Footer style css end */
